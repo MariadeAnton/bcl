@@ -1,0 +1,1 @@
+//a dummy file for building header only libs with CMake 2.8

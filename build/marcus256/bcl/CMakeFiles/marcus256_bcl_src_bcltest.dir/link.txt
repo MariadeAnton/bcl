@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/marcus256_bcl_src_bcltest.dir/src/bcltest.c.o  -o /home/maria/libs/bcl/bin/marcus256_bcl_src_bcltest -rdynamic libmarcus256_bcl.a 

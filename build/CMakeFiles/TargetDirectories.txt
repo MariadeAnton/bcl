@@ -1,0 +1,3 @@
+/home/maria/libs/bcl/build/marcus256/bcl/CMakeFiles/marcus256_bcl.dir
+/home/maria/libs/bcl/build/marcus256/bcl/CMakeFiles/marcus256_bcl_src_bcltest.dir
+/home/maria/libs/bcl/build/marcus256/bcl/CMakeFiles/marcus256_bcl_src_bfc.dir
