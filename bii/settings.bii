@@ -1,2 +1,0 @@
-cpp: {generator: Unix Makefiles}
-os: {arch: 64bit, family: Linux, subfamily: Ubuntu, version: '14.04'}

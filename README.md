@@ -14,12 +14,12 @@ Release 1.2.0
 
 2006-07-22
 
-  </div>
-
 ## Introduction
 
 The Basic Compression Library is a library of well known compression
   algorithms implemented in portable ANSI C code.
+
+Currently, RLE (Run Length Encoding), Huffman, Rice, Lempel-Ziv (LZ77) and Shannon-Fano compression algorithms are implemented.
 
 For more information about the Basic Compression Library, please read
   the manual ([doc/manual.pdf](doc/manual.pdf)) and, of course,

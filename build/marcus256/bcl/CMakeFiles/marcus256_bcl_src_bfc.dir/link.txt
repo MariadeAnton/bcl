@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/marcus256_bcl_src_bfc.dir/src/bfc.c.o  -o /home/maria/libs/bcl/bin/marcus256_bcl_src_bfc -rdynamic libmarcus256_bcl.a 

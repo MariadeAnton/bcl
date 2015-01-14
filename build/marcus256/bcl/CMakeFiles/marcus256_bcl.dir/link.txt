@@ -1,2 +1,0 @@
-/usr/bin/ar cr libmarcus256_bcl.a  CMakeFiles/marcus256_bcl.dir/src/huffman.c.o CMakeFiles/marcus256_bcl.dir/src/lz.c.o CMakeFiles/marcus256_bcl.dir/src/rice.c.o CMakeFiles/marcus256_bcl.dir/src/rle.c.o CMakeFiles/marcus256_bcl.dir/src/shannonfano.c.o CMakeFiles/marcus256_bcl.dir/src/systimer.c.o CMakeFiles/marcus256_bcl.dir/cmake_dummy.cpp.o
-/usr/bin/ranlib libmarcus256_bcl.a
