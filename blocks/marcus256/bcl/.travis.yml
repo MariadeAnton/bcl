@@ -21,8 +21,10 @@ script:
 - cd biicode_project
 - bii find -um
 - bii cpp:build
-- "./bin/marcus256_bcl_src_bcltest && ls ./bin/marcus256_bcl_src_bfc"
+- ./bin/marcus256_bcl_src_bcltest && ls ./bin/marcus256_bcl_src_bfc
 after_success:
 - bii user marcus256 -p $BII_MARCUS256_PASSWORD
 - bii publish
-
+env:
+  global:
+    secure: f7/X2/RdXCfNfXJtO1z6vPSZrX2FOUjL1kVvQHW0As16fYaZxbqLRL7o9qAMFYUnCVlQ/YPB+3KlvJVNnH8plN+4DuTrVGH5yDaZJMriljTvdmXj62ruFVf5hnSDZ5paLimAitp2BqS3LQwJGg0B3qRDRjL4XrorB0pmg9o+/1s=
