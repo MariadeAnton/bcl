@@ -15,13 +15,9 @@ install:
 - rm cmake-3.0.2-Linux-64.tar.gz
 script:
 - cmake --version
-- bii init biicode_project
-- mkdir -p ./biicode_project/blocks/amalulla/bcl
-- mv !(biicode_project) ./biicode_project/blocks/amalulla/bcl
-- cd biicode_project
-- bii find -um
-- bii cpp:build
-- ./bin/amalulla_bcl_src_bcltest && ls ./bin/amalulla_bcl_src_bfc
+- bii init -L
+- bii build
+- ./bin/marcus256_bcl_src_bcltest && ls ./bin/marcus256_bcl_src_bfc
 after_success:
 - bii user marcus256 -p $BII_MARCUS256_PASSWORD
 - bii publish --tag STABLE
