@@ -17,10 +17,10 @@ script:
 - cmake --version
 - bii init -L
 - bii build
-- ./bin/marcus256_bcl_src_bcltest && ls ./bin/marcus256_bcl_src_bfc
+- "./bin/marcus256_bcl_src_bcltest && ls ./bin/marcus256_bcl_src_bfc"
 after_success:
-- bii user marcus256 -p $BII_MARCUS256_PASSWORD
+- bii user amalulla -p $BII_AMALULLA_PASSWORD
 - bii publish --tag STABLE
 env:
   global:
-    secure: M0x2h0mVxpeEvpFenZZdJQ85+LeGLS+tNgfz5ws4F2/QKuKLYLXibu5BF9cuBZ58c/seELVTMUWb3d34/Bz4tal4pQ8JFg2TuYUfkZNqEvd2bfK8P8KUfqiUf6d/RvBwp0ieo0NuXl1ch+36/HTZTDKpDPZ/MZUUMKKOEIi5EQc=
+    secure: pgqKG1EAEy76m4yvGx8evSgTKDnnjKrW576YbjUV94FZGseW01q7UGZI9w71CAzRXv0rGV7rGiigkbbDPOoBgMPPYdOtGA8h7i04IBVt277leLQZCn+5RVs3Uyg7Wi5+4YD14M6I2UupASFMnv40fqfl7OJa2FFgvMskPZzlvG0=
